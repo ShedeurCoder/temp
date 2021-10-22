@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Temperature Converter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <form id="inputs">   
+        <fieldset>
+            <input type="text" id="temp" placeholder="Enter Temperature">
+            <select id="from">
+                <option value="c">℃</option>
+                <option value="f">℉</option>
+                <option value="k">K</option>
+                <option value="plsselect" disabled selected>Please Select</option>
+            </select>
+            to 
+            <select id="to">
+                <option value="cto">℃</option>
+                <option value="fto">℉</option>
+                <option value="kto">K</option>
+                <option value="plsselect" disabled selected>Please Select</option>
+            </select>    
+            <input type="submit">
+        </fieldset>
+    </form>
+    <h2 id="result"></h2>
+    <button id="darkModeToggle" onclick="darkMode()">Dark Mode</button>
+<script src='main.js'></script>   
+</body>
+</html>

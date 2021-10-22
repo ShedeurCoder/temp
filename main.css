@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    margin-top: 5%;
+} 
+h2 {
+    text-align: center;
+}
+select:hover {
+    cursor: pointer;
+}
+body {
+    background-color: white;
+    color: black;
+}  
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+#darkModeToggle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
